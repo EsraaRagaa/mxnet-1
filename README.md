@@ -1,2 +1,2 @@
-MXnet and python3.5
+MXNet and python3.5
 ======
