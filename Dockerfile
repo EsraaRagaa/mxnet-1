@@ -8,7 +8,7 @@ RUN apt-get update --fix-missing && \
     cd mxnet && \
     make -j4 && \
     conda install -y nomkl numpy && \
-    xs python && \
+    cd python && \
     python setup.py install && \
     rm -rf /var/lib/apt/lists/*
 CMD ["bash"]
